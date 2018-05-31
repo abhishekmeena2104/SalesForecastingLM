@@ -1,6 +1,5 @@
 
-#install.packages("RSNNS")
-#install.packages("DataCombine")
+
 library(forecast)
 library(tseries)
 library(MASS)

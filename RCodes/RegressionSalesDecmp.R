@@ -9,7 +9,7 @@ library(plyr)
 library(data.table)
 library(dplyr)
 rm()
-regdata<-read.csv('D:\\Ordering Code\\Data Outfiles\\SD_MAX_CLN_SLS_DCOMP_ADS.txt')
+regdata<-read.csv('D:\\ordering\\MAX_LDS\\DATA\\INPUT\\SD_MAX_LDS_SLS_DCOMP_ADS.txt')
 
 # binary and real-numbered exogenous variable name detail
 binary_lag_var = c("FLG_SU_EOSS","FLG_WN_EOSS","FLG_SP_EOSS","FLG_RAMADAN")
